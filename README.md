@@ -1,9 +1,9 @@
 # Markdown Lazy Links
 
 This program modifies markdown files to:
-- add table of contents to the head of your file (ignoring Hugo's frontmatter)
-- generate a footer with all non-image links from your file
-- change titles to titlecase
+- add table of contents to the head of your file (and ignoring [Hugo's](https://gohugo.io/) frontmatter if it exists)
+- generate a footer with all (non-image) links from your file
+- modify existing titles to titlecase format
 
 The changes are put into a file called "processed" in the same directory, so the original files should be untouched. Vitally, you should backup your files to another directory first if you are unsure or modifying important files with this program (and send me a bug report).
 
