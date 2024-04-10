@@ -7,6 +7,12 @@ This program modifies markdown files to:
 
 The changes are put into a file called "processed" in the same directory, so the original files should be untouched. Vitally, you should backup your files to another directory first if you are unsure or modifying important files with this program.
 
+## Images
+Before and after conversion
+![Preview web](https://github.com/danieljudd/markdownlazylinks/blob/main/images/example1_preview.png)
+The process of manual review (can disable)
+![Preview terminal](https://github.com/danieljudd/markdownlazylinks/blob/main/images/example1_program.png)
+
 ## Download
 Get the MDLL.zip
 [v1.0.0 Released Here](https://github.com/danieljudd/markdownlazylinks/releases)
